@@ -1,3 +1,4 @@
+
 *.exe
 *.o
 *.dll
@@ -5,3 +6,6 @@
 __pycache__/
 .venv/
 .vscode/
+
+# Estado generado durante la ejecucion
+estado_parqueadero.txt

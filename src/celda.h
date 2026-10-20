@@ -1,3 +1,4 @@
+
 #ifndef CELDA_H
 #define CELDA_H
 
@@ -9,6 +10,7 @@ private:
     int numero;
     bool ocupada;
     string placa;
+    string horaEntrada;
 
 public:
     Celda(int numero_);
@@ -16,6 +18,7 @@ public:
     int getNumero();
     bool getOcupada();
     string getPlaca();
+    string getHoraEntrada();
 
     void ocupar(string placa_);
     void liberar();
